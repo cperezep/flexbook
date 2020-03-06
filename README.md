@@ -18,10 +18,13 @@ Three properties that together helps flexbox decide on the width of a flex item.
 * flex-grow: Define how much an item can grow.
 * flex-shrink: Define how much it can shrink.
 * flex-basis: Defines its base width.
-* flex: <flex-grow> <flex-shrink> <flex-basis>
+* flex: flex-grow - flex-shrink - flex-basis
 
 ## Cheat Sheet
 ![Flexbox](flexbox.png)
 
 ## Demo
 [Demo](https://codepen.io/crperz/pen/poJWRav?editors=1100)
+
+## Notes
+* SVG(Scalable Vector Graphics) icons: There are several problems with icon fonts (really it's just a hack). Screenreaders for blind people. It's considered best practice to move away from icon fonts to SVG icons.[icomoon](https://icomoon.io).
