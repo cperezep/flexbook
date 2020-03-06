@@ -27,4 +27,4 @@ Three properties that together helps flexbox decide on the width of a flex item.
 [Demo](https://codepen.io/crperz/pen/poJWRav?editors=1100)
 
 ## Notes
-* SVG(Scalable Vector Graphics) icons: There are several problems with icon fonts (really it's just a hack). Screenreaders for blind people. It's considered best practice to move away from icon fonts to SVG icons.[icomoon](https://icomoon.io).
+* SVG(Scalable Vector Graphics) icons: There are several problems with icon fonts (really it's just a hack). Screenreaders for blind people. It's considered best practice to move away from icon fonts to SVG icons. Resource for SVG icons [icomoon](https://icomoon.io).
