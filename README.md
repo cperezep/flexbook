@@ -48,3 +48,16 @@ margin: auto
 .
 margin-right: auto;
 ```
+* Masks: Defines an area where we can look through the element and see what's behind that element.
+```css
+background-color: var(--color-primary);
+mask: url(../img/icon.svg);
+mask-size: cover;
+```
+* Box-Sizing
+```css
+// Border and padding to be added in the content of the element.
+box-sizing: content-box;
+// Includes the padding and the border into the width and height of the element.
+box-sizing: border-box;
+```
