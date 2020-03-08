@@ -40,3 +40,11 @@ transition: transform 0.2s,
             width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s,
             background-color 0.1s;
 ```
+* Flexbox trick: Use flexbox with margin: auto in child elements.
+```css
+margin: auto
+.
+.
+.
+margin-right: auto;
+```

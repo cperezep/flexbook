@@ -2,18 +2,15 @@
   // 1200px if we have enough space. But if it's not enough space so if the view port is less that 1200px then occupy 100% of the available view port width.
   max-width: 120rem;
   margin: 8rem auto;
-  background-color: var(--color-grey-light-2);
+  background-color: var(--color-grey-light-1);
   box-shadow: var(--shadow-dark);
-
-  // Testing purposes
-  min-height: 50rem;
 }
 
 .header {
   font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--color-grey-light-2);
+  border-bottom: 1px solid var(--color-grey-light-2);
 
   display: flex;
   justify-content: space-between;
@@ -37,7 +34,6 @@
 }
 
 .hotel-view {
-  background-color: orangered;
   height: 80rem;
   // The element should grow as much as it can. Occupy the remaining 82%.
   flex: 1;
