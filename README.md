@@ -28,3 +28,15 @@ Three properties that together helps flexbox decide on the width of a flex item.
 
 ## Notes
 * SVG(Scalable Vector Graphics) icons: There are several problems with icon fonts (really it's just a hack). Screenreaders for blind people. It's considered best practice to move away from icon fonts to SVG icons. Resource for SVG icons [icomoon](https://icomoon.io).
+* currentColor property: Inherit the color of the current element or the parent element.
+```css
+color: currentColor;
+background-color: currentColor;
+fill: currentColor;
+```
+* Apply different functions to different animations. Delay the second animation exactly the time that the first transform happen.
+```css
+transition: transform 0.2s,
+            width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s,
+            background-color 0.1s;
+```

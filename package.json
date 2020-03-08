@@ -1,7 +1,7 @@
 {
-  "name": "trillo",
+  "name": "flexbook",
   "version": "1.0.0",
-  "description": "Trillo app built using flexbox",
+  "description": "Flexbook app built using flexbox",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
