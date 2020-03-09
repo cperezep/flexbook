@@ -61,3 +61,8 @@ box-sizing: content-box;
 // Includes the padding and the border into the width and height of the element.
 box-sizing: border-box;
 ```
+* Use Figure HTML tag for reviews and descriptions of the images.
+```html
+<figure></figure>
+```
+* z-index only works if you set the position.
