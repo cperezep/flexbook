@@ -28,6 +28,16 @@ Three properties that together helps flexbox decide on the width of a flex item.
 
 ## Notes
 * SVG(Scalable Vector Graphics) icons: There are several problems with icon fonts (really it's just a hack). Screenreaders for blind people. It's considered best practice to move away from icon fonts to SVG icons. Resource for SVG icons [icomoon](https://icomoon.io).
+* Make one-child in other row and then give them space-around between rows.
+```css
+.container {
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.one-child {
+  flex: 0 0 100%;
+}
+```
 * currentColor property: Inherit the color of the current element or the parent element.
 ```css
 color: currentColor;
@@ -67,3 +77,4 @@ box-sizing: border-box;
 ```
 * z-index only works if you set the position.
 * When an element is inline then use display: inline-block in order to use padding.
+* CSS variables don't work in media queries. Use Sass variables.
