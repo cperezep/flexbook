@@ -19,7 +19,6 @@
 
 .content {
   display: flex;
-  flex-direction: row;
 }
 
 .sidebar {
@@ -34,6 +33,7 @@
 }
 
 .hotel-view {
+  background-color: #fff;
   // The element should grow as much as it can. Occupy the remaining 82%.
   flex: 1;
 }

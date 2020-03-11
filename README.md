@@ -1,4 +1,4 @@
-# FLEXBOX
+# FLEXBOX 🔥
 * Flexbox is a new module in CSS3 that makes it easy to align elements to one another, in different directions and orders.
 * The main idea behind flexbox is to give the container the ability to expand and to shrink elements to best use all the available space.
 * Flexbox replaces float layouts, using less, and more readable and logical code.
@@ -66,3 +66,4 @@ box-sizing: border-box;
 <figure></figure>
 ```
 * z-index only works if you set the position.
+* When an element is inline then use display: inline-block in order to use padding.
