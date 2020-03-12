@@ -23,7 +23,7 @@ Three properties that together helps flexbox decide on the width of a flex item.
 ## Cheat Sheet
 ![Flexbox](flexbox.png)
 
-## Demo
+## Flexbox Properties Demo
 [Demo](https://codepen.io/crperz/pen/poJWRav?editors=1100)
 
 ## Notes
@@ -78,3 +78,10 @@ box-sizing: border-box;
 * z-index only works if you set the position.
 * When an element is inline then use display: inline-block in order to use padding.
 * CSS variables don't work in media queries. Use Sass variables.
+
+## TODO
+* Display some kind of user menu when hovering over the username in .user-nav.
+* Display a message menu when hovering over the chat icon in .user-nav (like facebook).
+* Display a box with search suggestions as soon as the user starts typing in the search field.
+* Create a caption for the .gallery__item with a hover effect.
+* Make the page 100% responsive even for viewport sizes below 500px.
