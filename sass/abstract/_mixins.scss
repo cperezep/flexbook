@@ -1,0 +1,32 @@
+@mixin respond($breakpoint) {
+  @if $breakpoint == bp-smallest {
+    // 500px/16 = 31.25
+    @media only screen and (max-width: 31.25em) {
+      @content;
+    }
+  }
+  @if $breakpoint == bp-small {
+    // 600px/16 = 37.5
+    @media only screen and (max-width: 37.5em) {
+      @content;
+    }
+  }
+  @if $breakpoint == bp-medium {
+    // 900px/16 = 56.25
+    @media only screen and (max-width: 56.25em) {
+      @content;
+    }
+  }
+  @if $breakpoint == bp-large {
+    // 1100px/16 = 68.75
+    @media only screen and (max-width: 68.75em) {
+      @content;
+    }
+  }
+  @if $breakpoint == bp-largest {
+    // 1200px/16 = 75
+    @media only screen and (max-width: 75em) {
+      @content;
+    }
+  }
+}

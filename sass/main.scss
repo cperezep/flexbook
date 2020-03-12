@@ -1,3 +1,21 @@
-@import "base";
+@import "abstract/mixins";
+
+@import "base/animations";
+@import "base/base";
+
+@import "components/logo";
+@import "components/search";
+@import "components/user-navigation";
+@import "components/side-navigation";
+@import "components/legal";
+@import "components/gallery";
+@import "components/overview";
+@import "components/btn-inline";
+@import "components/paragraph";
+@import "components/list";
+@import "components/recommend";
+@import "components/review";
+@import "components/cta";
+@import "components/btn";
+
 @import "layout";
-@import "components";
