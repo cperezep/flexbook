@@ -10,6 +10,16 @@
     // Make the width of the search widder in order to put in other row
     flex: 0 0 100%;
     background-color: var(--color-grey-light-2);
+
+    &:focus-within {
+      border-top-width: 1px;
+      border-top-style: solid;
+      border-top-color: var(--color-dark-sky-blue);
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: var(--color-dark-sky-blue);
+      box-shadow: 0 0 0 0.3rem rgba(0, 123, 255, 0.25);
+    }
   }
 
   &__input {
@@ -28,6 +38,10 @@
       outline: none;
       width: 100%;
       background-color: var(--color-grey-light-3);
+
+      @include respond(bp-smallest) {
+        width: 90%;
+      }
     }
 
     // Just work in chrome and safari browser
