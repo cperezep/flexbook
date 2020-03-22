@@ -2,7 +2,11 @@
   "name": "flexbook",
   "version": "1.0.0",
   "description": "Flexbook app built using flexbox",
-  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:crperz/flexbook.git"
+  },
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "devserver": "live-server",

@@ -20,7 +20,7 @@
   --color-grey-dark-1: #333;
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999;
-  --color-dark-sky-blue: #85c8d1;
+  --color-dark-sky-blue: #80bdff;
   --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
   --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
   --line: 1px solid var(--color-grey-light-2); }
@@ -64,7 +64,15 @@ body {
     .search {
       order: 1;
       flex: 0 0 100%;
-      background-color: var(--color-grey-light-2); } }
+      background-color: var(--color-grey-light-2); }
+      .search:focus-within {
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: var(--color-dark-sky-blue);
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: var(--color-dark-sky-blue);
+        box-shadow: 0 0 0 0.3rem rgba(0, 123, 255, 0.25); } }
   .search__input {
     font-family: inherit;
     font-size: inherit;
@@ -80,6 +88,9 @@ body {
       outline: none;
       width: 100%;
       background-color: var(--color-grey-light-3); }
+      @media only screen and (max-width: 31.25em) {
+        .search__input:focus {
+          width: 90%; } }
     .search__input::-webkit-input-placeholder {
       font-weight: 100;
       color: var(--color-grey-light-4); }
@@ -217,18 +228,30 @@ body {
   display: flex;
   align-items: center;
   border-bottom: var(--line); }
+  .overview__summary {
+    display: flex;
+    align-items: center;
+    margin-right: auto; }
+    @media only screen and (max-width: 31.25em) {
+      .overview__summary {
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem; } }
   .overview__heading {
     font-size: 2.25rem;
     font-weight: 300;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 1px;
     padding: 1.5rem 3rem; }
     @media only screen and (max-width: 37.5em) {
       .overview__heading {
         font-size: 1.8rem;
         padding: 1.25rem 2rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .overview__heading {
+        padding: 0.4rem 1rem; } }
   .overview__stars {
-    margin-right: auto;
     display: flex; }
   .overview__icon-star, .overview__icon-location {
     width: 1.75rem;
@@ -238,6 +261,10 @@ body {
     font-size: 1.2rem;
     display: flex;
     vertical-align: center; }
+    @media only screen and (max-width: 31.25em) {
+      .overview__location {
+        flex-direction: column;
+        align-items: center; } }
   .overview__icon-location {
     margin-right: 0.5rem; }
   .overview__rating {
@@ -262,7 +289,8 @@ body {
         font-size: 1.8rem; } }
   .overview__rating-count {
     font-size: 0.8rem;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-align: center; }
     @media only screen and (max-width: 37.5em) {
       .overview__rating-count {
         font-size: 0.5rem; } }
