@@ -5,7 +5,7 @@
 * Flexbox completely changes the way that we build one-dimensional layouts.
 
 ## Live Demo
-Check out the [Website here.](https://crperz.github.io/flexbook)
+Check out the [Website here.](https://perezcr.github.io/flexbook)
 
 ## Container Properties
 * flex-direction: Specifies in which direction the main axis goes.
